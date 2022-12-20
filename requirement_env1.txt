@@ -1,0 +1,14 @@
+#For OWL2Vec*
+jupyter==1.0.0
+gensim>=3.8.0
+scikit-learn~=0.24.2
+nltk~=3.5
+#For building Knowledge Graphs
+SPARQLWrapper==1.8.5
+Owlready2==0.36
+requests==2.25.1
+pyparsing==2.4.7
+rdflib==5.0.0
+pandas==1.2.4
+owlrl==5.2.1
+#for ZSL Models
