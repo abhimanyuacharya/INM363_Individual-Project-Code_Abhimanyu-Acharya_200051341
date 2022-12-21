@@ -3,7 +3,6 @@ jupyter==1.0.0
 gensim>=3.8.0
 scikit-learn~=0.24.2
 nltk~=3.5
-
 #For building Knowledge Graphs
 SPARQLWrapper==1.8.5
 Owlready2==0.36
@@ -12,13 +11,4 @@ pyparsing==2.4.7
 rdflib==5.0.0
 pandas==1.2.4
 owlrl==5.2.1
-
 #for ZSL Models
-numpy==1.21.5
-scipy==1.9.1
-matplotlib==3.5.2
-seaborn==0.12.0
-altair==4.2.0
-optuna=2.10.1
-
-
