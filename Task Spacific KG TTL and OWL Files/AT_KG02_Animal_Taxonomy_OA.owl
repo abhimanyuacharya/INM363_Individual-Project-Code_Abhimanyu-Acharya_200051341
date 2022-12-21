@@ -1,0 +1,2290 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:at="http://www.semanticweb.org/inm363/AnimalTaxonomy#"
+     xmlns:dbr="http://dbpedia.org/resource/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#CMW_sciName -->
+
+    <AnnotationProperty rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#CMW_sciName"/>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#animalNames -->
+
+    <AnnotationProperty rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#animalNames"/>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#sciName -->
+
+    <AnnotationProperty rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#sciName"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://dbpedia.org/resource/Afrotheria -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Afrotheria">
+        <rdfs:subClassOf rdf:resource="http://dbpedia.org/resource/Atlantogenata"/>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Atlantogenata -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Atlantogenata">
+        <rdfs:subClassOf rdf:resource="http://dbpedia.org/resource/Placentalia"/>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Boreoeutheria -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Boreoeutheria">
+        <rdfs:subClassOf rdf:resource="http://dbpedia.org/resource/Placentalia"/>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Euarchontoglires -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Euarchontoglires">
+        <rdfs:subClassOf rdf:resource="http://dbpedia.org/resource/Boreoeutheria"/>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Laurasiatheria -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Laurasiatheria">
+        <rdfs:subClassOf rdf:resource="http://dbpedia.org/resource/Boreoeutheria"/>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Mammal -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Mammal"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Placentalia -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Placentalia">
+        <rdfs:subClassOf rdf:resource="http://dbpedia.org/resource/Mammal"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Ailuropoda -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Ailuropoda">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Ailuropodinae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Ailuropodinae -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Ailuropodinae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Ursidae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Alceini -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Alceini">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Capreolinae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Alces -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Alces">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Alceini"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Ancodonta -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Ancodonta">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Whippomorpha"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Antilope -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Antilope">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Antilopini"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Antilopinae -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Antilopinae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Bovidae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Antilopini -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Antilopini">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Antilopinae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Aonyx -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Aonyx">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Lutrinae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Aplodontia -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Aplodontia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Aplodontiidae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Aplodontiidae -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Aplodontiidae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Sciuromorpha"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Arctoidea -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Arctoidea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Caniformia"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Artiodactyla -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Artiodactyla">
+        <rdfs:subClassOf rdf:resource="http://dbpedia.org/resource/Laurasiatheria"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Ateles -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Ateles">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Atelinae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Atelidae -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Atelidae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Platyrrhini"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Atelinae -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Atelinae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Atelidae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Balaenoptera -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Balaenoptera">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Balaenopteridae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Balaenopteridae -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Balaenopteridae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Mysticeti"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Bos -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Bos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Bovini"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Bovidae -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Bovidae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Pecora"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Bovinae -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Bovinae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Bovidae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Bovini -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Bovini">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Bovinae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Bubalus -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Bubalus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Bovini"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Canidae -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Canidae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Canoidea"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Caniformia -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Caniformia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Carnivora"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Canis -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Canis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Canidae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Canoidea -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Canoidea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Caniformia"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Capreolinae -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Capreolinae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Cervidae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Capreolini -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Capreolini">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Capreolinae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Caprini -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Caprini">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Antilopinae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Carnivora -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Carnivora">
+        <rdfs:subClassOf rdf:resource="http://dbpedia.org/resource/Laurasiatheria"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Castor -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Castor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Castoridae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Castoridae -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Castoridae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Castorimorphi"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Castorimorphi -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Castorimorphi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Supramyomorpha"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Catarrhini -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Catarrhini">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Simiiformes"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Ceratomorpha -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Ceratomorpha">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Perissodactyla"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Cervidae -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Cervidae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Pecora"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Cetacea -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Cetacea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Whippomorpha"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Chiroptera -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Chiroptera">
+        <rdfs:subClassOf rdf:resource="http://dbpedia.org/resource/Laurasiatheria"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Cricetidae -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Cricetidae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Muroidea"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Cricetinae -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Cricetinae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Cricetidae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Delphinidae -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Delphinidae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Delphinoidea"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Delphininae -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Delphininae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Delphinidae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Delphinoidea -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Delphinoidea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Odontoceti"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Desmodontinae -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Desmodontinae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Phyllostomidae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Desmodontini -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Desmodontini">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Desmodontinae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Desmodus -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Desmodus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Desmodontini"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Elephantidae -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Elephantidae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Proboscidea"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Equidae -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Equidae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Hipomorpha"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Equus -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Equus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Equidae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Eulipotyphla -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Eulipotyphla">
+        <rdfs:subClassOf rdf:resource="http://dbpedia.org/resource/Laurasiatheria"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Felidae -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Felidae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Feloidea"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Feliformia -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Feliformia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Carnivora"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Felinae -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Felinae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Felidae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Felis -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Felis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Felinae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Feloidea -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Feloidea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Feliformia"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Giraffa -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Giraffa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Giraffidae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Giraffidae -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Giraffidae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Pecora"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Gorilla -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Gorilla">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Homininae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Haplorhini -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Haplorhini">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Primates"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Hipomorpha -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Hipomorpha">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Perissodactyla"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Hippopotamidae -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Hippopotamidae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Ancodonta"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Hippopotamus -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Hippopotamus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Hippopotamidae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Hominidae -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Hominidae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Hominoidea"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Homininae -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Homininae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Hominidae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Hominoidea -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Hominoidea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Catarrhini"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Hydromyini -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Hydromyini">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Murinae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Hydromys -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Hydromys">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Hydromyini"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Hydropotes -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Hydropotes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Capreolini"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Ichthyomyini -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Ichthyomyini">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Sigmodontinae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Ichthyomys -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Ichthyomys">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Ichthyomyini"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Ictonychinae -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Ictonychinae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Mustelidae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Incertae_sedis -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Incertae_sedis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Delphinidae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Lagomorpha -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Lagomorpha">
+        <rdfs:subClassOf rdf:resource="http://dbpedia.org/resource/Euarchontoglires"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Leporidae -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Leporidae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Lagomorpha"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Loxodonta -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Loxodonta">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Elephantidae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Lutrinae -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Lutrinae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Mustelidae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Lynx -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Lynx">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Felinae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Megaptera -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Megaptera">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Balaenopteridae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Mephitidae -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Mephitidae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Musteloidea"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Mephitinae -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Mephitinae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Mephitidae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Mesocricetus -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Mesocricetus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Cricetinae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Muridae -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Muridae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Muroidea"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Murinae -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Murinae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Muridae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Muroidea -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Muroidea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Myomorphi"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Mustelidae -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Mustelidae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Musteloidea"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Musteloidea -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Musteloidea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Arctoidea"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Myomorphi -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Myomorphi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Supramyomorpha"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Mysticeti -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Mysticeti">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Cetacea"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Noctilionoidea -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Noctilionoidea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Vespertilioniformes"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Odobenidae -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Odobenidae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Phocoidea"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Odobenus -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Odobenus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Odobenidae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Odontoceti -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Odontoceti">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Cetacea"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Orcinus -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Orcinus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Incertae_sedis"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Ovis -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Ovis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Caprini"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Pan -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Pan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Homininae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Panthera -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Panthera">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Pantherinae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Pantherinae -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Pantherinae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Felidae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Pantholops -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Pantholops">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Caprini"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Pecora -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Pecora">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Ruminantia"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Pentalagus -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Pentalagus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Leporidae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Perissodactyla -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Perissodactyla">
+        <rdfs:subClassOf rdf:resource="http://dbpedia.org/resource/Laurasiatheria"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Phocidae -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Phocidae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Phocoidea"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Phocoidea -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Phocoidea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Arctoidea"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Phyllostomidae -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Phyllostomidae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Noctilionoidea"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Platyrrhini -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Platyrrhini">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Simiiformes"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Poecilogale -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Poecilogale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Ictonychinae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Primates -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Primates">
+        <rdfs:subClassOf rdf:resource="http://dbpedia.org/resource/Euarchontoglires"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Proboscidea -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Proboscidea">
+        <rdfs:subClassOf rdf:resource="http://dbpedia.org/resource/Afrotheria"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Procyon -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Procyon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Procyonidae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Procyonidae -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Procyonidae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Musteloidea"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Pseudoryx -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Pseudoryx">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Bovini"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Pusa -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Pusa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Phocidae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Rhinoceros -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Rhinoceros">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Rhinocerotidae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Rhinocerotidae -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Rhinocerotidae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Ceratomorpha"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Rodentia -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Rodentia">
+        <rdfs:subClassOf rdf:resource="http://dbpedia.org/resource/Euarchontoglires"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Ruminantia -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Ruminantia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Artiodactyla"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Sciuridae -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Sciuridae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Sciuromorpha"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Sciurinae -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Sciurinae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Sciuridae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Sciurini -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Sciurini">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Sciurinae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Sciuromorpha -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Sciuromorpha">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Rodentia"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Sciurus -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Sciurus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Sciurini"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Sigmodontinae -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Sigmodontinae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Cricetidae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Simiiformes -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Simiiformes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Haplorhini"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Spilogale -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Spilogale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Mephitinae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Suidae -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Suidae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Suina"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Suina -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Suina">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Artiodactyla"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Supramyomorpha -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Supramyomorpha">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Rodentia"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Sus -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Sus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Suidae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Talpa -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Talpa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Talpini"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Talpidae -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Talpidae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Eulipotyphla"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Talpinae -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Talpinae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Talpidae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Talpini -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Talpini">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Talpinae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Tursiops -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Tursiops">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Delphininae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Ursidae -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Ursidae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Ursoidea"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Ursinae -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Ursinae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Ursidae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Ursoidea -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Ursoidea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Arctoidea"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Ursus -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Ursus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Ursinae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Vespertilioniformes -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Vespertilioniformes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Chiroptera"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Vulpes -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Vulpes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Canidae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Whippomorpha -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Whippomorpha">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Artiodactyla"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Wiedomyini -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Wiedomyini">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Sigmodontinae"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#Wiedomys -->
+
+    <Class rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#Wiedomys">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Wiedomyini"/>
+    </Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#antelope -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#antelope">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Boreoeutheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Laurasiatheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Mammal"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Placentalia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Antilope"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Antilopinae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Antilopini"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Artiodactyla"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Bovidae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Caprini"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Pantholops"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Pecora"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Ruminantia"/>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antilope_cervicapra</at:CMW_sciName>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pantholops_hodgsonii</at:CMW_sciName>
+        <at:animalNames rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antelope</at:animalNames>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antilope_cervicapra</at:sciName>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pantholops_hodgsonii</at:sciName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#bat -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#bat">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Boreoeutheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Laurasiatheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Mammal"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Placentalia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Chiroptera"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Desmodontinae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Desmodontini"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Desmodus"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Noctilionoidea"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Phyllostomidae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Vespertilioniformes"/>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desmodus_rotundus</at:CMW_sciName>
+        <at:animalNames rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bat</at:animalNames>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desmodus_rotundus</at:sciName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#beaver -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#beaver">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Boreoeutheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Euarchontoglires"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Mammal"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Placentalia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Aplodontia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Aplodontiidae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Castor"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Castoridae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Castorimorphi"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Rodentia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Sciuromorpha"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Supramyomorpha"/>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aplodontia_rufa</at:CMW_sciName>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Castor_canadensis</at:CMW_sciName>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Castor_fiber</at:CMW_sciName>
+        <at:animalNames rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beaver</at:animalNames>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aplodontia_rufa</at:sciName>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Castor_canadensis</at:sciName>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Castor_fiber</at:sciName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#bobcat -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#bobcat">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Boreoeutheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Laurasiatheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Mammal"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Placentalia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Carnivora"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Felidae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Feliformia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Felinae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Feloidea"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Lynx"/>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lynx_rufus</at:CMW_sciName>
+        <at:animalNames rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bobcat</at:animalNames>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lynx_rufus</at:sciName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#buffalo -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#buffalo">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Boreoeutheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Laurasiatheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Mammal"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Placentalia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Artiodactyla"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Bovidae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Bovinae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Bovini"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Bubalus"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Pecora"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Ruminantia"/>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bubalus_arnee</at:CMW_sciName>
+        <at:animalNames rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buffalo</at:animalNames>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bubalus_arnee</at:sciName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#chihuahua -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#chihuahua">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Boreoeutheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Laurasiatheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Mammal"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Placentalia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Canidae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Caniformia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Canis"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Canoidea"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Carnivora"/>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Canis_familiaris</at:CMW_sciName>
+        <at:animalNames rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chihuahua (dog)</at:animalNames>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Canis_familiaris</at:sciName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#chimpanzee -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#chimpanzee">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Boreoeutheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Euarchontoglires"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Mammal"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Placentalia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Catarrhini"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Haplorhini"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Hominidae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Homininae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Hominoidea"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Pan"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Primates"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Simiiformes"/>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pan_troglodytes</at:CMW_sciName>
+        <at:animalNames rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chimpanzee</at:animalNames>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pan_troglodytes</at:sciName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#collie -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#collie">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Boreoeutheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Laurasiatheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Mammal"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Placentalia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Canidae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Caniformia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Canis"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Canoidea"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Carnivora"/>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Canis_familiaris</at:CMW_sciName>
+        <at:animalNames rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Collie</at:animalNames>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Canis_familiaris</at:sciName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#cow -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#cow">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Boreoeutheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Laurasiatheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Mammal"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Placentalia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Artiodactyla"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Bos"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Bovidae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Bovinae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Bovini"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Pecora"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Ruminantia"/>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bos_taurus</at:CMW_sciName>
+        <at:animalNames rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cattle</at:animalNames>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bos_taurus</at:sciName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#dalmatian -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#dalmatian">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Boreoeutheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Laurasiatheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Mammal"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Placentalia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Canidae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Caniformia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Canis"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Canoidea"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Carnivora"/>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Canis_familiaris</at:CMW_sciName>
+        <at:animalNames rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dalmatian (dog)</at:animalNames>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Canis_familiaris</at:sciName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#deer -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#deer">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Boreoeutheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Laurasiatheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Mammal"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Placentalia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Artiodactyla"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Capreolinae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Capreolini"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Cervidae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Hydropotes"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Pecora"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Ruminantia"/>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hydropotes_inermis</at:CMW_sciName>
+        <at:animalNames rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deer</at:animalNames>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hydropotes_inermis</at:sciName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#dolphin -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#dolphin">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Boreoeutheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Laurasiatheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Mammal"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Placentalia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Artiodactyla"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Cetacea"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Delphinidae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Delphininae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Delphinoidea"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Odontoceti"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Tursiops"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Whippomorpha"/>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tursiops_truncatus</at:CMW_sciName>
+        <at:animalNames rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dolphin</at:animalNames>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tursiops_truncatus</at:sciName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#elephant -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#elephant">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Afrotheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Atlantogenata"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Mammal"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Placentalia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Elephantidae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Loxodonta"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Proboscidea"/>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loxodonta_cyclotis</at:CMW_sciName>
+        <at:animalNames rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elephant</at:animalNames>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loxodonta_cyclotis</at:sciName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#fox -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#fox">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Boreoeutheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Laurasiatheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Mammal"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Placentalia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Canidae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Caniformia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Canoidea"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Carnivora"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Vulpes"/>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vulpes_lagopus</at:CMW_sciName>
+        <at:animalNames rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fox</at:animalNames>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vulpes_lagopus</at:sciName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#giraffe -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#giraffe">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Boreoeutheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Laurasiatheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Mammal"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Placentalia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Artiodactyla"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Giraffa"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Giraffidae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Pecora"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Ruminantia"/>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Giraffa_tippelskirchi</at:CMW_sciName>
+        <at:animalNames rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Giraffe</at:animalNames>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Giraffa_tippelskirchi</at:sciName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#gorilla -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#gorilla">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Boreoeutheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Euarchontoglires"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Mammal"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Placentalia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Catarrhini"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Gorilla"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Haplorhini"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Hominidae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Homininae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Hominoidea"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Primates"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Simiiformes"/>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gorilla_gorilla</at:CMW_sciName>
+        <at:animalNames rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gorilla</at:animalNames>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gorilla_gorilla</at:sciName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#hamster -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#hamster">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Boreoeutheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Euarchontoglires"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Mammal"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Placentalia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Cricetidae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Cricetinae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Mesocricetus"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Muroidea"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Myomorphi"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Rodentia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Supramyomorpha"/>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mesocricetus_brandti</at:CMW_sciName>
+        <at:animalNames rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hamster</at:animalNames>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mesocricetus_brandti</at:sciName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#hippopotamus -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#hippopotamus">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Boreoeutheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Laurasiatheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Mammal"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Placentalia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Ancodonta"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Artiodactyla"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Hippopotamidae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Hippopotamus"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Whippomorpha"/>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hippopotamus_amphibius</at:CMW_sciName>
+        <at:animalNames rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hippopotamus</at:animalNames>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hippopotamus_amphibius</at:sciName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#horse -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#horse">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Boreoeutheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Laurasiatheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Mammal"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Placentalia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Equidae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Equus"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Hipomorpha"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Perissodactyla"/>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Equus_caballus</at:CMW_sciName>
+        <at:animalNames rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Horse</at:animalNames>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Equus_caballus</at:sciName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#leopard -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#leopard">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Boreoeutheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Laurasiatheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Mammal"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Placentalia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Carnivora"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Felidae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Feliformia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Feloidea"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Panthera"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Pantherinae"/>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Panthera_pardus</at:CMW_sciName>
+        <at:animalNames rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leopard</at:animalNames>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Panthera_pardus</at:sciName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#lion -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#lion">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Boreoeutheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Laurasiatheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Mammal"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Placentalia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Carnivora"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Felidae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Feliformia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Feloidea"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Panthera"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Pantherinae"/>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Panthera_leo</at:CMW_sciName>
+        <at:animalNames rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lion</at:animalNames>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Panthera_leo</at:sciName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#mole -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#mole">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Boreoeutheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Laurasiatheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Mammal"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Placentalia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Eulipotyphla"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Talpa"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Talpidae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Talpinae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Talpini"/>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Talpa_altaica</at:CMW_sciName>
+        <at:animalNames rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mole (animal)</at:animalNames>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Talpa_altaica</at:sciName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#moose -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#moose">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Boreoeutheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Laurasiatheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Mammal"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Placentalia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Alceini"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Alces"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Artiodactyla"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Capreolinae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Cervidae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Pecora"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Ruminantia"/>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alces_alces</at:CMW_sciName>
+        <at:animalNames rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moose</at:animalNames>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alces_alces</at:sciName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#mouse -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#mouse">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Boreoeutheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Euarchontoglires"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Mammal"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Placentalia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Cricetidae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Muroidea"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Myomorphi"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Rodentia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Sigmodontinae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Supramyomorpha"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Wiedomyini"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Wiedomys"/>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wiedomys_pyrrhorinos</at:CMW_sciName>
+        <at:animalNames rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mouse</at:animalNames>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wiedomys_pyrrhorinos</at:sciName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#otter -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#otter">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Boreoeutheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Laurasiatheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Mammal"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Placentalia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Aonyx"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Arctoidea"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Caniformia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Carnivora"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Lutrinae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Mustelidae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Musteloidea"/>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aonyx_capensis</at:CMW_sciName>
+        <at:animalNames rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Otter</at:animalNames>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aonyx_capensis</at:sciName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#ox -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#ox">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Boreoeutheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Laurasiatheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Mammal"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Placentalia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Artiodactyla"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Bos"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Bovidae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Bovinae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Bovini"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Pecora"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Pseudoryx"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Ruminantia"/>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bos_sauveli</at:CMW_sciName>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pseudoryx_nghetinhensis</at:CMW_sciName>
+        <at:animalNames rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ox</at:animalNames>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bos_sauveli</at:sciName>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pseudoryx_nghetinhensis</at:sciName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#pig -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#pig">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Boreoeutheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Laurasiatheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Mammal"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Placentalia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Artiodactyla"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Suidae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Suina"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Sus"/>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sus_domesticus</at:CMW_sciName>
+        <at:animalNames rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pig</at:animalNames>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sus_domesticus</at:sciName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#rabbit -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#rabbit">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Boreoeutheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Euarchontoglires"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Mammal"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Placentalia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Lagomorpha"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Leporidae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Pentalagus"/>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pentalagus_furnessi</at:CMW_sciName>
+        <at:animalNames rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rabbit</at:animalNames>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pentalagus_furnessi</at:sciName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#raccoon -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#raccoon">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Boreoeutheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Laurasiatheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Mammal"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Placentalia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Arctoidea"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Caniformia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Carnivora"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Musteloidea"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Procyon"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Procyonidae"/>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procyon_lotor</at:CMW_sciName>
+        <at:animalNames rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raccoon</at:animalNames>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procyon_lotor</at:sciName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#rat -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#rat">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Boreoeutheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Euarchontoglires"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Mammal"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Placentalia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Cricetidae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Hydromyini"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Hydromys"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Ichthyomyini"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Ichthyomys"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Muridae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Murinae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Muroidea"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Myomorphi"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Rodentia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Sigmodontinae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Supramyomorpha"/>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hydromys_chrysogaster</at:CMW_sciName>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ichthyomys_hydrobates</at:CMW_sciName>
+        <at:animalNames rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rat</at:animalNames>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hydromys_chrysogaster</at:sciName>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ichthyomys_hydrobates</at:sciName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#rhinoceros -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#rhinoceros">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Boreoeutheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Laurasiatheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Mammal"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Placentalia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Ceratomorpha"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Perissodactyla"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Rhinoceros"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Rhinocerotidae"/>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhinoceros_unicornis</at:CMW_sciName>
+        <at:animalNames rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhinoceros</at:animalNames>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhinoceros_unicornis</at:sciName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#seal -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#seal">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Boreoeutheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Laurasiatheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Mammal"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Placentalia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Arctoidea"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Caniformia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Carnivora"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Phocidae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Phocoidea"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Pusa"/>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pusa_sibirica</at:CMW_sciName>
+        <at:animalNames rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seal</at:animalNames>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pusa_sibirica</at:sciName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#sheep -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#sheep">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Boreoeutheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Laurasiatheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Mammal"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Placentalia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Antilopinae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Artiodactyla"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Bovidae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Caprini"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Ovis"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Pecora"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Ruminantia"/>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ovis_canadensis</at:CMW_sciName>
+        <at:animalNames rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sheep</at:animalNames>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ovis_canadensis</at:sciName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#skunk -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#skunk">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Boreoeutheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Laurasiatheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Mammal"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Placentalia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Arctoidea"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Caniformia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Carnivora"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Mephitidae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Mephitinae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Musteloidea"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Spilogale"/>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spilogale_putorius</at:CMW_sciName>
+        <at:animalNames rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skunk</at:animalNames>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spilogale_putorius</at:sciName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#squirrel -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#squirrel">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Boreoeutheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Euarchontoglires"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Mammal"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Placentalia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Rodentia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Sciuridae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Sciurinae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Sciurini"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Sciuromorpha"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Sciurus"/>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sciurus_aberti</at:CMW_sciName>
+        <at:animalNames rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Squirrel</at:animalNames>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sciurus_aberti</at:sciName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#tiger -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#tiger">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Boreoeutheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Laurasiatheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Mammal"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Placentalia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Carnivora"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Felidae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Feliformia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Feloidea"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Panthera"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Pantherinae"/>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Panthera_tigris</at:CMW_sciName>
+        <at:animalNames rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tiger</at:animalNames>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Panthera_tigris</at:sciName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#walrus -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#walrus">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Boreoeutheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Laurasiatheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Mammal"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Placentalia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Arctoidea"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Caniformia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Carnivora"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Odobenidae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Odobenus"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Phocoidea"/>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Odobenus_rosmarus</at:CMW_sciName>
+        <at:animalNames rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Walrus</at:animalNames>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Odobenus_rosmarus</at:sciName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#weasel -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#weasel">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Boreoeutheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Laurasiatheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Mammal"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Placentalia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Arctoidea"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Caniformia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Carnivora"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Ictonychinae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Mustelidae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Musteloidea"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Poecilogale"/>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Poecilogale_albinucha</at:CMW_sciName>
+        <at:animalNames rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weasel</at:animalNames>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Poecilogale_albinucha</at:sciName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#wolf -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#wolf">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Boreoeutheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Laurasiatheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Mammal"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Placentalia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Canidae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Caniformia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Canis"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Canoidea"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Carnivora"/>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Canis_lupus</at:CMW_sciName>
+        <at:animalNames rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wolf</at:animalNames>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Canis_lupus</at:sciName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#zebra -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#zebra">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Boreoeutheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Laurasiatheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Mammal"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Placentalia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Equidae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Equus"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Hipomorpha"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Perissodactyla"/>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Equus_grevyi</at:CMW_sciName>
+        <at:animalNames rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zebra</at:animalNames>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Equus_grevyi</at:sciName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#blue+whale -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#blue+whale">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Boreoeutheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Laurasiatheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Mammal"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Placentalia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Artiodactyla"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Balaenoptera"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Balaenopteridae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Cetacea"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Mysticeti"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Whippomorpha"/>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Balaenoptera_musculus</at:CMW_sciName>
+        <at:animalNames rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blue whale</at:animalNames>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Balaenoptera_musculus</at:sciName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#german+shepherd -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#german+shepherd">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Boreoeutheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Laurasiatheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Mammal"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Placentalia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Canidae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Caniformia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Canis"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Canoidea"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Carnivora"/>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Canis_familiaris</at:CMW_sciName>
+        <at:animalNames rdf:datatype="http://www.w3.org/2001/XMLSchema#string">German Shepherd</at:animalNames>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Canis_familiaris</at:sciName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#giant+panda -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#giant+panda">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Boreoeutheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Laurasiatheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Mammal"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Placentalia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Ailuropoda"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Ailuropodinae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Arctoidea"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Caniformia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Carnivora"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Ursidae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Ursoidea"/>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ailuropoda_melanoleuca</at:CMW_sciName>
+        <at:animalNames rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Giant panda</at:animalNames>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ailuropoda_melanoleuca</at:sciName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#grizzly+bear -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#grizzly+bear">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Boreoeutheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Laurasiatheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Mammal"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Placentalia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Arctoidea"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Caniformia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Carnivora"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Ursidae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Ursinae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Ursoidea"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Ursus"/>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ursus_arctos</at:CMW_sciName>
+        <at:animalNames rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grizzly bear</at:animalNames>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ursus_arctos</at:sciName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#humpback+whale -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#humpback+whale">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Boreoeutheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Laurasiatheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Mammal"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Placentalia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Artiodactyla"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Balaenopteridae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Cetacea"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Megaptera"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Mysticeti"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Whippomorpha"/>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Megaptera_novaeangliae</at:CMW_sciName>
+        <at:animalNames rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Humpback whale</at:animalNames>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Megaptera_novaeangliae</at:sciName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#killer+whale -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#killer+whale">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Boreoeutheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Laurasiatheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Mammal"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Placentalia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Artiodactyla"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Cetacea"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Delphinidae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Delphinoidea"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Incertae_sedis"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Odontoceti"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Orcinus"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Whippomorpha"/>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orcinus_orca</at:CMW_sciName>
+        <at:animalNames rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Killer Whale</at:animalNames>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orcinus_orca</at:sciName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#persian+cat -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#persian+cat">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Boreoeutheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Laurasiatheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Mammal"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Placentalia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Carnivora"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Felidae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Feliformia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Felinae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Felis"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Feloidea"/>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felis_catus</at:CMW_sciName>
+        <at:animalNames rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Persian cat</at:animalNames>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felis_catus</at:sciName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#polar+bear -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#polar+bear">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Boreoeutheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Laurasiatheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Mammal"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Placentalia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Arctoidea"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Caniformia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Carnivora"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Ursidae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Ursinae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Ursoidea"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Ursus"/>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ursus_maritimus</at:CMW_sciName>
+        <at:animalNames rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polar bear</at:animalNames>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ursus_maritimus</at:sciName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#siamese+cat -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#siamese+cat">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Boreoeutheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Laurasiatheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Mammal"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Placentalia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Carnivora"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Felidae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Feliformia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Felinae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Felis"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Feloidea"/>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felis_catus</at:CMW_sciName>
+        <at:animalNames rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Siamese cat</at:animalNames>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felis_catus</at:sciName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inm363/AnimalTaxonomy#spider+monkey -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/inm363/AnimalTaxonomy#spider+monkey">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Boreoeutheria"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Euarchontoglires"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Mammal"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Placentalia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Ateles"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Atelidae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Atelinae"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Haplorhini"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Platyrrhini"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Primates"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/inm363/AnimalTaxonomy#Simiiformes"/>
+        <at:CMW_sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ateles_chamek</at:CMW_sciName>
+        <at:animalNames rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spider monkey</at:animalNames>
+        <at:sciName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ateles_chamek</at:sciName>
+    </NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
